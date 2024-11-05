@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/nom_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Nom" />
+
+    <EditText
+        android:id="@+id/prenom_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Prénom" />
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/address_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Address" />
+
+    <EditText
+        android:id="@+id/password_input"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="Mot de passe" />
+
+    <Button
+        android:id="@+id/update_user_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mettre à jour" />
+</LinearLayout>

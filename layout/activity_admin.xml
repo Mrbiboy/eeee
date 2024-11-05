@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/admin_dashboard_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin Dashboard"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Button for User Management -->
+    <Button
+        android:id="@+id/service1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Management" />
+
+    <!-- Button for Transaction Tracking -->
+    <Button
+        android:id="@+id/service2_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction Tracking"
+        android:layout_marginTop="16dp" />
+
+
+    <!-- Button for Role Management -->
+    <Button
+        android:id="@+id/service3_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exécuter une Transaction"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button for Financial Reports -->
+    <Button
+        android:id="@+id/service4_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Financial Reports"
+        android:layout_marginTop="16dp" />
+
+
+</LinearLayout>
